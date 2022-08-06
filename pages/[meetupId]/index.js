@@ -9,11 +9,8 @@ function MeetupDetails(props) {
   return (
     <Fragment>
       <Head>
-        {/* <title>{`Meetup Detail for ${props.meetupData.title}`}</title> */}
-        {/* <meta
-          name='description'
-          content={`Details of ${props.meetupData.title} meetup`}
-        /> */}
+        <title>{props.meetupData.title}</title>
+        <meta name='description' content={props.meetupData.description} />
       </Head>
       <MeetupDetail
         image={props.meetupData.image}
@@ -50,7 +47,7 @@ export async function getStaticPaths() {
 
     //fallback: true tells the server that these listed paths are listed, but there may be more
     //if true the server will try to generate a path for any other path as well.
-    fallback: true,
+    fallback: "blocking",
     //here to construct the paths to the _id of each entry the meetupsArray from the database is mapped
     //each object in the meetupsArray is returned into a new object where params: is an object with
     //the id for the specific entry converted to a string, this will iterate all entries
