@@ -1,6 +1,6 @@
 # Next.js Meetups Platform
 
-![Project Demo GIF]([placeholder-for-nextjs-meetups-demo.gif])
+![Project Demo GIF]([placeholder.gif])
 
 ## Description
 
@@ -18,7 +18,7 @@ To get this project up and running on your local machine, follow these steps:
 
 2.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/nextjs-meetups.git # Replace with the actual repo link
+    git clone https://github.com/jndev0/nextjs-meetups.git
     cd nextjs-meetups
     ```
 
@@ -36,7 +36,6 @@ To get this project up and running on your local machine, follow these steps:
         ```
         MONGODB_URI="your_mongodb_connection_string_here" 
         ```
-        (The original project had a connection string visible in `pages/index.js` for `mongodb+srv://jndevAdmin:vTeRnLiJvKi2d0i7317526@cluster0.qy3fzq7.mongodb.net/meetups?retryWrites=true&w=majority`. You should use your own or a test instance.)
 
 5.  **Run the application:**
     ```bash
@@ -54,5 +53,3 @@ Once the application is running:
 *   Navigate to `/new-meetup` to add a new meetup to the platform.
 
 ---
-
-_This README was generated using a template._
