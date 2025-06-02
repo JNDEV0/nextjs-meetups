@@ -40,7 +40,7 @@ export async function getStaticProps() {
   //the props property will be the props passed to the default export function
 
   const client = await MongoClient.connect(
-    "mongodb+srv://jndevAdmin:vTeRnLiJvKi2d0i7317526@cluster0.qy3fzq7.mongodb.net/meetups?retryWrites=true&w=majority"
+    "x"
   );
   const db = client.db();
   const meetupsCollection = db.collection("meetupsCollection");
