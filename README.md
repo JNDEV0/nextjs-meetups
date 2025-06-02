@@ -51,5 +51,3 @@ Once the application is running:
 *   Open your web browser and navigate to `http://localhost:3000` to see the list of meetups.
 *   Click on a meetup to view its details.
 *   Navigate to `/new-meetup` to add a new meetup to the platform.
-
----
